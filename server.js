@@ -2,7 +2,7 @@ import  express from 'express'
 import dotenv, { config } from 'dotenv'
 import morgan from 'morgan';
 import { connectDB } from './config/db.js';
-import authRoutes from './routes/authroute.js'
+import authRoutes from './routes/authRoute.js'
 
 dotenv.config();
 
